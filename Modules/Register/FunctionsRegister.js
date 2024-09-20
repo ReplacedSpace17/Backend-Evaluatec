@@ -17,8 +17,6 @@ function validate_email(email, callback) {
   });
 }
 
-
-
 // Function to insert the user into the database
 async function create_new_account(req, res, email, password) {
   try {
